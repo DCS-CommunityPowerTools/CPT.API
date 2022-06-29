@@ -1,18 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.IO.Compression;
-using System.Linq;
 using System.Reflection;
 using System.Runtime.Serialization;
 using System.Text;
-using System.Threading.Tasks;
 
 
 
 
 namespace CPT.API.IO.Serialization.DCS.Legacy {
-	
+
 	public partial class LegacyMissionFile {
 
 		[DataMember(Name = "mission")]

@@ -1,19 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Serialization;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Runtime.Serialization;
+
+
+
 
 namespace CPT.API.DCS.Options.Mission.Weather {
-	
+
 	[DataContract]
 	public class FogOptions {
 
 		[DataMember(Name = "thickness")]
 		public ushort Thickness { get; set; } = 0;
 
-        [DataMember(Name = "visibility")]
+		[DataMember(Name = "visibility")]
 		public ushort Visibility { get; set; } = 0;
 	}
 

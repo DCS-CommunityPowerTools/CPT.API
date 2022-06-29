@@ -1,11 +1,5 @@
 ﻿using CPT.API.DCS.Options.Client;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
 using System.Runtime.Serialization;
-using System.Text;
-using System.Threading.Tasks;
 
 
 
@@ -20,8 +14,8 @@ namespace CPT.API.IO.Serialization.DCS.Legacy {
 			[DataMember(Name = "playerName")]
 			public string PlayerName { get; set; }
 
-            [DataMember(Name = "miscellaneous")]
-            public MiscellaneousOptions Miscellaneous { get; set; }
+			[DataMember(Name = "miscellaneous")]
+			public MiscellaneousOptions Miscellaneous { get; set; }
 
 			[DataMember(Name = "difficulty")]
 			public DifficultyOptions Difficulty { get; set; }
